@@ -17,7 +17,7 @@
 
 <br>
 
-Editar de forma más eficiente y rápido las imágenes HEIC de mi iPhone para mis redes sociales. Desde la consola de Windows.
+Editar de forma más eficiente y rápido las imágenes HEIC de mi iPhone para mis redes sociales. Desde la consola de Windows, sin importar la cantidad de fotos o el formato de las mismas.
 
 <br>
 
@@ -97,8 +97,20 @@ echo Instalando pillow-heif...
 ".\venv\Scripts\pip.exe" install pillow-heif
 
 echo.
+echo --- Descargando scripts desde GitHub ---
+
+set "BASE_URL=https://raw.githubusercontent.com/carjavi/iPhone-to-social-networking/master"
+
+echo Descargando heic-to-jpeg.py...
+curl -L "%BASE_URL%/heic-to-jpeg.py" -o "%~dp0heic-to-jpeg.py"
+
+echo Descargando cut-photo.py...
+curl -L "%BASE_URL%/cut-photo.py" -o "%~dp0cut-photo.py"
+
+echo.
 echo --- Todo listo ---
 echo Las librerias (Pillow y pillow-heif) se han instalado correctamente en 'venv'.
+echo Se han descargado heic-to-jpeg.py y cut-photo.py en el mismo directorio de este instalador.
 echo recuerda activar el entorno virtual antes de ejecutar el script principal desde el terminal de Gitbash 
 echo source venv/Scripts/activate 
 echo.
@@ -445,7 +457,7 @@ if __name__ == "__main__":
 <br>
 
 # Troubleshooting
-> :warning: **Warning:** Hasta el momento ninguno.
+> :warning: **Warning:** Hasta el momento ninguno. Solo la he probado con archivos PNG y JPEG, pero deberia funcionar para otras extensiones.
 
 <br>
 
