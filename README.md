@@ -27,14 +27,14 @@ Editar de forma más eficiente y rápido las imágenes HEIC de mi iPhone para mi
 <br>
 
 # Use
-1. Descarga el archivo install en la carpeta de las fotos:
+1. Descarga el archivo install en la carpeta de las fotos:<br>
+
+Desde Gitbash o CMD en Windows 10/11 modernos
 ```bash
-# Desde Gitbash o CMD en Windows 10/11 modernos
 curl -L https://raw.githubusercontent.com/carjavi/iPhone-to-social-networking/master/install.bat -o install.bat
 ```
-
+Desde Powershell
 ```bash
-# Desde Powershell
 Invoke-WebRequest https://raw.githubusercontent.com/carjavi/iPhone-to-social-networking/master/install.bat -OutFile install.bat
 
 ```
