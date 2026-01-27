@@ -12,6 +12,11 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [Use](#use)
+- [Adobe Premier to Instagram](#adobe-premier-to-instagram)
+    - [Formato Reels 1980x1080 de instagram (vertical)](#formato-reels-1980x1080-de-instagram-vertical)
+    - [Formato Reels 1080x1080 de instagram (cuadrado)](#formato-reels-1080x1080-de-instagram-cuadrado)
+    - [Formato Reels 1080x1080 de instagram (horizontal)](#formato-reels-1080x1080-de-instagram-horizontal)
+    - [Exportar Mp4](#exportar-mp4)
 - [Scripts](#scripts)
 - [Troubleshooting](#troubleshooting)
 
@@ -24,7 +29,12 @@ Editar de forma más eficiente y rápido las imágenes HEIC de mi iPhone para mi
 # Use
 1. Descarga el archivo install en la carpeta de las fotos:
 ```bash
+# Desde Gitbash o CMD en Windows 10/11 modernos
 curl -L https://raw.githubusercontent.com/carjavi/iPhone-to-social-networking/master/install.bat -o install.bat
+
+# Desde Powershell
+Invoke-WebRequest https://raw.githubusercontent.com/carjavi/iPhone-to-social-networking/master/install.bat -OutFile install.bat
+
 ```
 2. Correr instalador desde la consola: 
 ```bash
@@ -58,6 +68,49 @@ python cut-photo.py # deja la foto cuadrada equivalente a 1080x1080 px
 # Desde Gitbash /CMD /PowerShell
 deactivate
 ```
+<br>
+
+# Adobe Premier to Instagram
+Los videos deberian estar en 4K
+
+### Formato Reels 1980x1080 de instagram (vertical)
+```
+New secuence/ 
+Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
+Setting/video/ Frame Size: 1080 & Horizontal: 1920 
+```
+
+### Formato Reels 1080x1080 de instagram (cuadrado)
+```
+New secuence/ 
+Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
+Setting/video/ Frame Size: 1080 & Horizontal: 1080 
+```
+
+### Formato Reels 1080x1080 de instagram (horizontal)
+```
+New secuence/ 
+Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
+Setting/video/ Frame Size: 1920 & Horizontal: 1080 
+```
+
+### Exportar Mp4
+```bash
+Formato: H264
+tocando en Output Video:xxxx # podemos cambiar nombre y la ubicación <br>
+Activar: Render at Maximum Depth 
+
+Video/bitrate setting:
+bitrate encoding:VBR,2 pass 
+target bitrate[Mbps]:32 
+Maximum Bitrate[Mbps]:32
+
+Activar:
+Use Maximum Render Quality 
+Use Previews
+Export 
+```
+
 <br>
 
 # Scripts
