@@ -76,7 +76,7 @@ deactivate
 
 # Adobe Premier to Instagram
 Los videos deberian estar en 4K. <br>
-Project: ***File/New/Secuence/***
+***File/New/Secuence/***
 
 ### Formato Reels 1980x1080 de instagram (vertical)
 ```
@@ -109,7 +109,7 @@ Effect Controls > Motion >Rotation<br>
 Asegúrate que Position quede centrado <br>
 
 ## Exportar Mp4
-File/Export/media:
+***File/Export/Media***
 ```bash
 Formato: H264
 tocando en Output Video:xxxx # podemos cambiar nombre y la ubicación <br>
