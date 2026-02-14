@@ -115,9 +115,9 @@ File/Export/media:
 ```bash
 Formato: H264
 tocando en Output Video:xxxx # podemos cambiar nombre y la ubicación <br>
-Video/Activar: Render at Maximum Depth 
 
-Video/bitrate setting:
+Video/Activar: Render at Maximum Depth 
+Video/Bitrate setting:
 bitrate encoding:VBR,2 pass 
 target bitrate[Mbps]:32 
 Maximum Bitrate[Mbps]:32
