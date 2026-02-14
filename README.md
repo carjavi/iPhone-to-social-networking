@@ -16,7 +16,9 @@
     - [Formato Reels 1980x1080 de instagram (vertical)](#formato-reels-1980x1080-de-instagram-vertical)
     - [Formato Reels 1080x1080 de instagram (cuadrado)](#formato-reels-1080x1080-de-instagram-cuadrado)
     - [Formato Reels 1080x1080 de instagram (horizontal)](#formato-reels-1080x1080-de-instagram-horizontal)
-    - [Exportar Mp4](#exportar-mp4)
+  - [Escalar el video (sin cortar)](#escalar-el-video-sin-cortar)
+  - [Rotar Video](#rotar-video)
+  - [Exportar Mp4](#exportar-mp4)
 - [Scripts](#scripts)
 - [Troubleshooting](#troubleshooting)
 
@@ -96,11 +98,24 @@ Secuence Presents/Digital SLR/1080p/DSLR 1080p24
 Setting/video/ Frame Size: 1920 & Horizontal: 1080 
 ```
 
-### Exportar Mp4
+## Escalar el video (sin cortar)
+Selecciona el clip en la línea de tiempo: <br>
+Effect Controls > Motion > Scale <br>
+***Ajusta a 100% - 10%*** <br>
+Asegúrate que Position quede centrado <br>
+
+## Rotar Video
+Selecciona el clip en la línea de tiempo: <br>
+Effect Controls > Motion >Rotation<br>
+***Ajusta 0 - 270*** <br>
+Asegúrate que Position quede centrado <br>
+
+## Exportar Mp4
+File/Export/media:
 ```bash
 Formato: H264
 tocando en Output Video:xxxx # podemos cambiar nombre y la ubicación <br>
-Activar: Render at Maximum Depth 
+Video/Activar: Render at Maximum Depth 
 
 Video/bitrate setting:
 bitrate encoding:VBR,2 pass 
