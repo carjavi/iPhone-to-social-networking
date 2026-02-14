@@ -75,25 +75,23 @@ deactivate
 <br>
 
 # Adobe Premier to Instagram
-Los videos deberian estar en 4K
+Los videos deberian estar en 4K. <br>
+Project: ***File/New/Secuence/***
 
 ### Formato Reels 1980x1080 de instagram (vertical)
 ```
-New secuence/ 
 Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
 Setting/video/ Frame Size: 1080 & Horizontal: 1920 
 ```
 
 ### Formato Reels 1080x1080 de instagram (cuadrado)
 ```
-New secuence/ 
 Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
 Setting/video/ Frame Size: 1080 & Horizontal: 1080 
 ```
 
 ### Formato Reels 1080x1080 de instagram (horizontal)
 ```
-New secuence/ 
 Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
 Setting/video/ Frame Size: 1920 & Horizontal: 1080 
 ```
