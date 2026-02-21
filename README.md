@@ -13,9 +13,9 @@
 - [Table of contents](#table-of-contents)
 - [Use](#use)
 - [Adobe Premier to Instagram](#adobe-premier-to-instagram)
-    - [Formato Reels 1980x1080 de instagram (vertical)](#formato-reels-1980x1080-de-instagram-vertical)
+    - [Formato Reels 1080x1980 de instagram (vertical)](#formato-reels-1080x1980-de-instagram-vertical)
     - [Formato Reels 1080x1080 de instagram (cuadrado)](#formato-reels-1080x1080-de-instagram-cuadrado)
-    - [Formato Reels 1080x1080 de instagram (horizontal)](#formato-reels-1080x1080-de-instagram-horizontal)
+    - [Formato Reels 1920x1080 de instagram (horizontal)](#formato-reels-1920x1080-de-instagram-horizontal)
   - [Escalar el video (sin cortar)](#escalar-el-video-sin-cortar)
   - [Rotar Video](#rotar-video)
   - [Exportar Mp4](#exportar-mp4)
@@ -78,7 +78,7 @@ deactivate
 Los videos deberian estar en 4K. <br>
 ***File/New/Secuence/***
 
-### Formato Reels 1980x1080 de instagram (vertical)
+### Formato Reels 1080x1980 de instagram (vertical)
 ```
 Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
 Setting/video/ Frame Size: 1080 & Horizontal: 1920 
@@ -90,7 +90,7 @@ Secuence Presents/Digital SLR/1080p/DSLR 1080p24
 Setting/video/ Frame Size: 1080 & Horizontal: 1080 
 ```
 
-### Formato Reels 1080x1080 de instagram (horizontal)
+### Formato Reels 1920x1080 de instagram (horizontal)
 ```
 Secuence Presents/Digital SLR/1080p/DSLR 1080p24 
 Setting/video/ Frame Size: 1920 & Horizontal: 1080 
