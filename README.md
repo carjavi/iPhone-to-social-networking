@@ -19,6 +19,8 @@
   - [Escalar el video (sin cortar)](#escalar-el-video-sin-cortar)
   - [Rotar Video](#rotar-video)
   - [Exportar Mp4](#exportar-mp4)
+- [Adobe Photoshop CC para Corregir Fotos](#adobe-photoshop-cc-para-corregir-fotos)
+  - [Como expandir vertical o horizzontalmente para rellenar un espacio vacio de la foto y redimencionarlo](#como-expandir-vertical-o-horizzontalmente-para-rellenar-un-espacio-vacio-de-la-foto-y-redimencionarlo)
 - [Scripts](#scripts)
 - [Troubleshooting](#troubleshooting)
 
@@ -125,6 +127,16 @@ Use Maximum Render Quality
 Use Previews
 Export 
 ```
+
+<br>
+
+# Adobe Photoshop CC para Corregir Fotos
+
+## Como expandir vertical o horizzontalmente para rellenar un espacio vacio de la foto y redimencionarlo
+1. Ctrl + J (Clonar foto)
+2. Seleccionar espacio vacio con herramienta de selección rectangular. con SHIFT se puede tomar varias areas. NOta se debe tocar selleccionar un poco el borde de la imagen a expandir
+3. click derecho opcion Fill(rellenar)/ contents: Content-Aware(segun el contenido)de nuevo.
+4. listo, si clono cosas que no te gustan, se Deben seleccionar seccionar mas pequeñas de la imagen y rellenar, hacerlo las veces que sea necesario
 
 <br>
 
