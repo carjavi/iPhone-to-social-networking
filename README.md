@@ -53,6 +53,8 @@ cmd.exe /c install.bat
 # Desde Powershell
 ./install.bat
 ```
+
+
 3. Activa el entorno virtual:
 ```bash
 # Desde Gitbash
@@ -62,16 +64,33 @@ source venv/Scripts/activate
 venv\Scripts\activate
 
 # Desde PowerShell
-.\venv\Scripts\Activate.ps1
+# Cambia la política de seguridad de PowerShell. Permite ejecutar scripts locales sin firma y descargados de internet
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process; .\venv\Scripts\Activate.ps1
 ```
-4. Corre los comandos para editar las fotos:
+
+
+4. Terminal GUI-TUI
+<p align="center"><img src="./img/photo_terminal_TUI.png"  alt=" " /></p>
+
+```bash
+python photo_edit_social-networks.py # abre el terminal GUI
+```
+
+> :warning: **Warning:** No funciona bien en GitBash, mejor correr en CMD o PowerShell
+
+
+<br>
+
+5. Running los comandos por separados editar las fotos:
 ```bash
 python heic-to-jpeg.py # convierte la imagen heic a jpeg
 python cut-photo.py # deja la foto cuadrada equivalente a 1080x1080 px
 ```
-5. Desactivar el entorno virtual
+
+
+6. Desactivar el entorno virtual
 ```bash
-# Desde Gitbash /CMD /PowerShell
+# Desde Gitbash 5/CMD /PowerShell
 deactivate
 ```
 <br>
